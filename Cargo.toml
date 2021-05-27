@@ -1,0 +1,16 @@
+[package]
+name = "rusty-8"
+version = "0.1.0"
+authors = ["AnonymousDapper"]
+license = "MIT"
+description = "Simple CHIP-8 interpreter in Rust."
+edition = "2018"
+resolver = "2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.3"
+colored = "2.0.0"
+ctrlc = "3.1.9"
+termion = "1.5.6"
